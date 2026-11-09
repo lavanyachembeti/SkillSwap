@@ -1,0 +1,52 @@
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment & Secrets (Keep .env.example tracked)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.keystore
+
+# Django & Databases
+db.sqlite3
+db.sqlite3-journal
+*.log
+media/
+staticfiles/
+
+# Ad-hoc local scripts
+websocket_test.py
+
+# IDEs & OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Flutter & Generated Plugin Files
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-build/
+frontend/linux/flutter/generated_plugin_registrant.cc
+frontend/linux/flutter/generated_plugin_registrant.h
+frontend/linux/flutter/generated_plugins.cmake
+frontend/windows/flutter/generated_plugin_registrant.cc
+frontend/windows/flutter/generated_plugin_registrant.h
+frontend/windows/flutter/generated_plugins.cmake
+frontend/macos/Flutter/GeneratedPluginRegistrant.swift
